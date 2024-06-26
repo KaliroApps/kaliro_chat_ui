@@ -1,4 +1,4 @@
-## 4.5.2
+## 4.5.4
 **New**
 - Introduced real-time updates for the last message and unread count in conversations based on App setting configured via dashboard, ensuring up-to-date information is displayed.
 
