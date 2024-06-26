@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 
 ///[JoinProtectedGroupConfiguration] is a data class that has configuration properties
 ///to customize the functionality and appearance of [CometChatJoinProtectedGroup]

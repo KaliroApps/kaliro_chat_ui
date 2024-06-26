@@ -1,4 +1,4 @@
-group 'com.cometchat.cometchat_chat_uikit'
+group 'com.cometchat.kaliro_chat_ui'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -33,7 +33,7 @@ apply plugin: 'kotlin-android'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.cometchat.cometchat_chat_uikit'
+        namespace 'com.cometchat.kaliro_chat_ui'
     }
 
     compileSdk 33

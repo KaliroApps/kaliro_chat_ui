@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../cometchat_chat_uikit.dart';
-import '../../cometchat_chat_uikit.dart' as cc;
+import '../../kaliro_chat_ui.dart';
+import '../../kaliro_chat_ui.dart' as cc;
 
 ///[CometChatThreadedMessages] is a widget that internally uses [CometChatListBase], [CometChatMessageList] and [CometChatMessageComposer]
 ///to display and create messages with respect to a certain parent message

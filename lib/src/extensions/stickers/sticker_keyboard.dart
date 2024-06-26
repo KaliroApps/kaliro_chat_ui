@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../../../cometchat_chat_uikit.dart';
+import '../../../../../../kaliro_chat_ui.dart';
 
 /// [CometChatStickerKeyboard] renders a keyboard consisting of stickers provided by the extension
 ///

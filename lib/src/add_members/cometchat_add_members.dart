@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 
 ///[CometChatAddMembers] is a component that internally uses [CometChatUsers] component
 ///to display a list of users who can be added to a particular group

@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 import '../message_composer/live_reaction_animation.dart';
 
 ///[CometChatMessagesController] is the view model for [CometChatMessages]

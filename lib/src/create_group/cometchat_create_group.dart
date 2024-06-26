@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart' as cc;
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart' as cc;
 import 'package:get/get.dart';
 
 ///[CometChatCreateGroup] is a widget that allows users to create different type of groups

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
 ///[CometChatJoinProtectedGroupController] is the view model for [CometChatJoinProtectedGroup]

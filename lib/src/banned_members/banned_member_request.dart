@@ -1,4 +1,4 @@
-import '../../../cometchat_chat_uikit.dart';
+import '../../../kaliro_chat_ui.dart';
 
 /// [UIBannedGroupMemberRequestBuilder] is an interface that is used to construct the request body for fetching banned group members using [BannedGroupMembersRequestBuilder]
 mixin UIBannedGroupMemberRequestBuilder {

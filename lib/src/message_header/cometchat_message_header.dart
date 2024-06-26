@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../cometchat_chat_uikit.dart';
-import '../../../cometchat_chat_uikit.dart' as cc;
+import '../../../kaliro_chat_ui.dart';
+import '../../../kaliro_chat_ui.dart' as cc;
 
 ///[CometChatMessageHeader] is a widget which shows [user]/[group] details using [CometChatListItem]
 ///if its being shown for an [User] then the name of the user will be in the [title] of [CometChatListItem] and their online/offline status will be in the [subtitle]

@@ -1,4 +1,4 @@
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 
 ///[ThumbnailGenerationExtension] is the controller class for enabling and disabling the extension
 ///the extension generates thumbnails for images and videos

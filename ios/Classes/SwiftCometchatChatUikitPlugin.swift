@@ -28,7 +28,7 @@ public class SwiftCometchatChatUikitPlugin: NSObject, FlutterPlugin , QLPreviewC
     
     
 public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "cometchat_chat_uikit", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "kaliro_chat_ui", binaryMessenger: registrar.messenger())
       let viewController = UIApplication.shared.delegate?.window?!.rootViewController
       let instance = SwiftCometchatChatUikitPlugin(viewController: viewController)
     registrar.addMethodCallDelegate(instance, channel: channel)

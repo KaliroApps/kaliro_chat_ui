@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
 ///[CometChatUsersWithMessages] is a component that uses [CometChatUsers] to display a list of users and allows to access the [CometChatMessages] component for each user

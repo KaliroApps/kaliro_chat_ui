@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 
 ///[CometChatCreateGroupController] is the view model for [CometChatCreateGroup]
 ///it contains all the business logic involved in changing the state of the UI of [CometChatCreateGroup]

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../cometchat_chat_uikit.dart';
+import '../../../../kaliro_chat_ui.dart';
 
 ///[StickerAuxiliaryButton] is the widget that represents the [StickersExtension] in auxiliary button view of the [CometChatMessageComposer]
 ///

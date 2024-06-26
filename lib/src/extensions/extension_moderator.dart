@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../cometchat_chat_uikit.dart';
+import '../../../../kaliro_chat_ui.dart';
 
 ///[ExtensionModerator] is an utility class that scans for information of applied extensions inside the metadata of a [BaseMessage]
 class ExtensionModerator {

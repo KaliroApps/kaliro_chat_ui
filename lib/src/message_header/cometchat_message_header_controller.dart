@@ -1,6 +1,6 @@
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 import 'package:get/get.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart' as cc;
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart' as cc;
 
 ///[CometChatMessageHeaderController] is the view model for [CometChatMessageHeader]
 ///it contains all the business logic involved in changing the state of the UI of [CometChatMessageHeader]

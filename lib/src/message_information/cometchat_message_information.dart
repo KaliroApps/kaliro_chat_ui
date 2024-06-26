@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import '../../cometchat_chat_uikit.dart';
-import '../../cometchat_chat_uikit.dart' as cc;
+import '../../kaliro_chat_ui.dart';
+import '../../kaliro_chat_ui.dart' as cc;
 
 ///[CometChatMessageInformation] is a widget that internally uses [CometChatListBase]
 ///to display message information.

@@ -1,4 +1,4 @@
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 import 'package:flutter/material.dart';
 
 ///[AISmartRepliesStyle] is a data class that has styling-related properties

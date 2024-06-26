@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 
 ///[CometchatMessageInformationController] is the view model for [CometChatMessageInformation]
 ///it contains all the business logic involved in changing the state of the UI of [CometChatMessageInformation]

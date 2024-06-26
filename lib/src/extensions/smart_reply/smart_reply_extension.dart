@@ -1,4 +1,4 @@
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 
 ///[SmartReplyExtension] is the controller class for enabling and disabling the extension
 ///enabling this extension would display automated suggestions to send in response of received text messages

@@ -1,4 +1,4 @@
-library cometchat_chat_uikit;
+library kaliro_chat_ui;
 
 export 'src/conversations/conversations_style.dart';
 

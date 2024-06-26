@@ -1,4 +1,4 @@
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 
 ///[PollsExtension] is the controller class for enabling and disabling the extension
 ///this extension allows to create a poll bubble

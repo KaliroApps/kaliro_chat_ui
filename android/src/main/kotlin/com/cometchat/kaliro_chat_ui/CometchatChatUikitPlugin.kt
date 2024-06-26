@@ -1,4 +1,4 @@
-package com.cometchat.cometchat_chat_uikit
+package com.cometchat.kaliro_chat_ui
 
 import android.Manifest
 import android.app.Activity
@@ -39,7 +39,7 @@ class CometchatChatUikitPlugin: FlutterPlugin, MethodCallHandler, ActivityAware,
 
     this.context = flutterPluginBinding.applicationContext
 
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "cometchat_chat_uikit")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "kaliro_chat_ui")
 
     channel.setMethodCallHandler(this)
     initAudio()
@@ -74,7 +74,7 @@ class CometchatChatUikitPlugin: FlutterPlugin, MethodCallHandler, ActivityAware,
 
 
   override fun onAttachedToActivity(binding: ActivityPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding?.binaryMessenger!!, "cometchat_chat_uikit")
+    channel = MethodChannel(flutterPluginBinding?.binaryMessenger!!, "kaliro_chat_ui")
     activity = binding.activity
     channel.setMethodCallHandler(this)
     binding.addRequestPermissionsResultListener(this)

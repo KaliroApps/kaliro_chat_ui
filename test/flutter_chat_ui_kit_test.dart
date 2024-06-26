@@ -2,7 +2,7 @@
 // import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  // const MethodChannel channel = MethodChannel('cometchat_chat_uikit');
+  // const MethodChannel channel = MethodChannel('kaliro_chat_ui');
   //
   // TestWidgetsFlutterBinding.ensureInitialized();
   //

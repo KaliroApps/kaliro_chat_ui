@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 
 ///[CometChatCollaborativeDocumentBubble] a widget that provides access to collaborative document
 ///where users can work on common document

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../cometchat_chat_uikit.dart';
+import '../../../kaliro_chat_ui.dart';
 
 ///[AIAssistBotController] is the view model for [AIAssistBotView]
 class AIAssistBotController

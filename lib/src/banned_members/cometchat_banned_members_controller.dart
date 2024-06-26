@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart' as material;
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
-import '../../cometchat_chat_uikit.dart' as cc;
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
+import '../../kaliro_chat_ui.dart' as cc;
 
 ///[CometChatBannedMembersController] is the view model for [CometChatBannedMembers]
 ///it contains all the business logic involved in changing the state of the UI of [CometChatBannedMembers]

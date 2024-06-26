@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../cometchat_chat_uikit.dart';
+import '../../../kaliro_chat_ui.dart';
 
 ///[ContactsConfiguration] is a component that displays a list of users and groups with the help of [CometChatListBase] and [CometChatListItem]
 ///

@@ -1,4 +1,4 @@
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 
 ///[UsersWithMessagesConfiguration] is a data class that has configuration properties
 ///to customize the functionality and appearance of [CometChatUsersWithMessages]

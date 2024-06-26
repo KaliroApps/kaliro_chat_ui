@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../cometchat_chat_uikit.dart';
-import '../../../cometchat_chat_uikit.dart' as cc;
+import '../../../kaliro_chat_ui.dart';
+import '../../../kaliro_chat_ui.dart' as cc;
 
 ///[CometChatBannedMembers] is a component that displays members banned from a particular [Group] in a listed form using [CometChatListBase] and [CometChatListItem]
 ///fetched banned members are listed down according to the sequence they were added to the list initially

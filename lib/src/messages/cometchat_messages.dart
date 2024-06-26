@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 
 ///[CometChatMessages] is a component that provides a skeleton structure that binds together [CometChatMessageHeader], [CometChatMessageList], [CometChatMessageComposer] component.
 ///and it also facilitates the communication between these components.

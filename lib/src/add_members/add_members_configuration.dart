@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 
 ///[AddMemberConfiguration] is a data class that has configuration properties
 ///to customize the functionality and appearance of [CometChatAddMembers]

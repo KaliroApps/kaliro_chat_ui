@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../../cometchat_chat_uikit.dart';
+import '../../../../../kaliro_chat_ui.dart';
 
 ///[PollsExtensionDecorator] is a the view model for [PollsExtension] it contains all the relevant business logic
 ///it is also a sub-class of [DataSourceDecorator] which allows any extension to override the default methods provided by [MessagesDataSource]

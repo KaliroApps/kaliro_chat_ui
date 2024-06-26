@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 
 ///[CometChatGroupScope] is an utility component which displays scopes of a group member with respect to the group they are part of
 ///if the scope is permitted to be changed then suggestions of possible scopes appear in dropdown

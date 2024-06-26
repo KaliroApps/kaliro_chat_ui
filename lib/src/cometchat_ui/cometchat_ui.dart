@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
-import 'package:cometchat_chat_uikit/src/cometchat_ui/tab_item.dart';
-import 'package:cometchat_chat_uikit/src/cometchat_ui/ui_style.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
+import 'package:kaliro_chat_ui/src/cometchat_ui/tab_item.dart';
+import 'package:kaliro_chat_ui/src/cometchat_ui/ui_style.dart';
 
 enum TabAlignment { top, bottom }
 

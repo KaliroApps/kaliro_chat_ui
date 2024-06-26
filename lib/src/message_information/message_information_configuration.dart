@@ -1,4 +1,4 @@
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 import 'package:flutter/material.dart';
 
 ///[MessageInformationConfiguration] is a data class that has configuration properties

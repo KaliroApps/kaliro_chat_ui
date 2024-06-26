@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
 ///[CometChatJoinProtectedGroup] is a component that provides a screen with a form field to join a password protected group

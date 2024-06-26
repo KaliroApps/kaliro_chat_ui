@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'dart:async';
-import '../../../../../cometchat_chat_uikit.dart';
+import '../../../../../kaliro_chat_ui.dart';
 
 ///[TextModerationExtension] is the controller class for enabling and disabling the extension
 ///the extension censors out abusive words and sensitive information such as personal details, email ids

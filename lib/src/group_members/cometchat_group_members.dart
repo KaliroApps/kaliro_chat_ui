@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../../cometchat_chat_uikit.dart';
-import '../../../cometchat_chat_uikit.dart' as cc;
+import '../../../kaliro_chat_ui.dart';
+import '../../../kaliro_chat_ui.dart' as cc;
 
 ///[CometChatGroupMembers] is a component that displays all the members of a [Group] in the form of a list with the help of [CometChatListBase] and [CometChatListItem]
 ///fetched  are listed down alphabetically and in order of recent activity

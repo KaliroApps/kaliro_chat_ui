@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 
 ///[GroupScopeStyle] is a data class that has styling-related properties
 ///to customize the appearance of [CometChatGroupScope]

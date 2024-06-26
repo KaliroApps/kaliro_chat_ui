@@ -1,8 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/src/constants/emoji_category.dart';
+import 'package:kaliro_chat_ui/src/constants/emoji_category.dart';
 
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 
 ///Public function to show emoji keyboard , returns the tapped emoji
 Future<String?> showCometChatEmojiKeyboard(

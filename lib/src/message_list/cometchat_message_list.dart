@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../../cometchat_chat_uikit.dart';
-import '../../cometchat_chat_uikit.dart' as cc;
+import '../../kaliro_chat_ui.dart';
+import '../../kaliro_chat_ui.dart' as cc;
 import 'messages_builder_protocol.dart';
 import 'dart:math' as math;
 

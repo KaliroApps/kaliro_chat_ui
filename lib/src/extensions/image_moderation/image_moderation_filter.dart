@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../cometchat_chat_uikit.dart';
+import '../../../../../kaliro_chat_ui.dart';
 
 ///[ImageModerationFilter] is a widget that renders an overlay filter over an image with graphic content
 ///

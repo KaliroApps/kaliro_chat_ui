@@ -1,6 +1,6 @@
 import 'package:get/get_state_manager/get_state_manager.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart' as cc;
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart' as cc;
 import 'package:flutter/material.dart';
 
 ///[CometChatDetailsController] is the view model for [CometChatDetails]

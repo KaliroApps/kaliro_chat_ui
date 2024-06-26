@@ -1,4 +1,4 @@
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 
 ///[AIConversationSummaryExtension] is the controller class for enabling and disabling the extension
 ///enabling this extension you can use the conversation summary ai feature

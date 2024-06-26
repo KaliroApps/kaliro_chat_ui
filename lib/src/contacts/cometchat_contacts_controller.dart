@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import '../../../cometchat_chat_uikit.dart';
+import '../../../kaliro_chat_ui.dart';
 
 ///[CometChatUsersController] is the view model for [CometChatUsers]
 class CometChatContactsController extends GetxController {

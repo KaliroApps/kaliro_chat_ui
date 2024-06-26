@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../cometchat_chat_uikit.dart';
+import '../../kaliro_chat_ui.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 
 ///[CometChatTransferOwnership] is a component that internally uses [CometChatGroupMembers]

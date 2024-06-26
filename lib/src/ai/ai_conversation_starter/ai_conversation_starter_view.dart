@@ -1,7 +1,7 @@
-import 'package:cometchat_chat_uikit/src/ai/ai_utils.dart';
+import 'package:kaliro_chat_ui/src/ai/ai_utils.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
+import 'package:kaliro_chat_ui/kaliro_chat_ui.dart';
 
 ///[AIConversationStarterView] is a widget that is rendered as the content view for [AIConversationStarterExtension]
 ///```dart

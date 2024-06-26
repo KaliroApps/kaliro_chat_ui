@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint cometchat_chat_uikit.podspec` to validate before publishing.
+# Run `pod lib lint kaliro_chat_ui.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'cometchat_chat_uikit'
+  s.name             = 'kaliro_chat_ui'
   s.version          = '4.5.2'
   s.summary          = 'CometChat Flutter UI KIt'
   s.description      = <<-DESC

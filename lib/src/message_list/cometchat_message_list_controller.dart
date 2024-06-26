@@ -1,11 +1,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:cometchat_chat_uikit/src/message_list/messages_builder_protocol.dart';
+import 'package:kaliro_chat_ui/src/message_list/messages_builder_protocol.dart';
 import 'package:get/get.dart';
 
-import '../../cometchat_chat_uikit.dart';
-import '../../cometchat_chat_uikit.dart' as cc;
+import '../../kaliro_chat_ui.dart';
+import '../../kaliro_chat_ui.dart' as cc;
 
 ///[CometChatMessageListController] is the view model for [CometChatMessageList]
 ///it contains all the business logic involved in changing the state of the UI of [CometChatMessageList]

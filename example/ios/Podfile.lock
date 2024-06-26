@@ -1,5 +1,5 @@
 PODS:
-  - cometchat_chat_uikit (4.3.4):
+  - kaliro_chat_ui (4.3.4):
     - Flutter
   - cometchat_sdk (4.0.8):
     - CometChatSDK (= 4.0.44)
@@ -27,7 +27,7 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
-  - cometchat_chat_uikit (from `.symlinks/plugins/cometchat_chat_uikit/ios`)
+  - kaliro_chat_ui (from `.symlinks/plugins/kaliro_chat_ui/ios`)
   - cometchat_sdk (from `.symlinks/plugins/cometchat_sdk/ios`)
   - cometchat_uikit_shared (from `.symlinks/plugins/cometchat_uikit_shared/ios`)
   - Flutter (from `Flutter`)
@@ -45,8 +45,8 @@ SPEC REPOS:
     - CometChatSDK
 
 EXTERNAL SOURCES:
-  cometchat_chat_uikit:
-    :path: ".symlinks/plugins/cometchat_chat_uikit/ios"
+  kaliro_chat_ui:
+    :path: ".symlinks/plugins/kaliro_chat_ui/ios"
   cometchat_sdk:
     :path: ".symlinks/plugins/cometchat_sdk/ios"
   cometchat_uikit_shared:
@@ -71,7 +71,7 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
 
 SPEC CHECKSUMS:
-  cometchat_chat_uikit: b8e18b6f669b6486cc7e9992047e758e764ba049
+  kaliro_chat_ui: b8e18b6f669b6486cc7e9992047e758e764ba049
   cometchat_sdk: 3cfd23c94f93809cc7ca00b17fec2ed25ef9a7a1
   cometchat_uikit_shared: 20a81220eec62f268c05b75e83a1c8a49649cda2
   CometChatSDK: fd757d30972d283623291546f0c58f3e49e50d17
