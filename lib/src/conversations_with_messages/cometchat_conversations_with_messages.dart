@@ -146,6 +146,7 @@ class _CometChatConversationsWithMessagesState
             subtitleView: widget.conversationsConfiguration?.subtitleView,
             backButton: widget.conversationsConfiguration?.backButton,
             avatarStyle: widget.conversationsConfiguration?.avatarStyle,
+            customAvatar: widget.conversationsConfiguration?.customAvatar,
             customSoundForMessages:
                 widget.conversationsConfiguration?.customSoundForMessages,
             disableSoundForMessages:

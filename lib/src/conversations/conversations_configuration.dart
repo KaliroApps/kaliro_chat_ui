@@ -45,6 +45,7 @@ class ConversationsConfiguration {
       this.stateCallBack,
       this.listItemStyle,
       this.avatarStyle,
+      this.customAvatar,
       this.statusIndicatorStyle,
       this.receiptStyle,
       this.disableUsersPresence,
@@ -151,6 +152,9 @@ class ConversationsConfiguration {
 
   ///[avatarStyle] set style for avatar
   final AvatarStyle? avatarStyle;
+
+  ///[customAvatar] set custom avatar widget
+  final Widget Function(String? user, String? name)? customAvatar;
 
   ///[statusIndicatorStyle] set style for status indicator
   final StatusIndicatorStyle? statusIndicatorStyle;

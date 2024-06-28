@@ -37,6 +37,7 @@ class CometChatMessageList extends StatefulWidget {
     this.emptyStateView,
     this.errorStateView,
     this.avatarStyle,
+    this.customAvatar,
     this.messageListStyle = const MessageListStyle(),
     this.footerView,
     this.headerView,
@@ -118,6 +119,9 @@ class CometChatMessageList extends StatefulWidget {
 
   ///[avatarStyle] set style for avatar visible in leading view of message bubble
   final AvatarStyle? avatarStyle;
+
+  ///[customAvatar] set custom avatar
+  final Widget Function(String? user, String? name)? customAvatar;
 
   ///disables sound for messages sent/received
   final bool? disableSoundForMessages;
@@ -801,6 +805,11 @@ class _CometChatMessageListState extends State<CometChatMessageList> {
 
   Widget getAvatar(BaseMessage messageObject, CometChatTheme theme,
       BuildContext context, User? userObject) {
+    
+    if(widget.customAvatar != null) {
+      return widget.customAvatar?.call(userObject?.avatar, userObject?.name) ?? const SizedBox();
+    }
+
     return userObject == null
         ? const SizedBox()
         : Padding(

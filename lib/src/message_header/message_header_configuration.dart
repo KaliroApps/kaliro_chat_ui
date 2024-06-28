@@ -17,6 +17,7 @@ class MessageHeaderConfiguration {
       this.hideBackButton,
       this.theme,
       this.avatarStyle,
+      this.customAvatar,
       this.listItemStyle,
       this.statusIndicatorStyle,
       this.appBarOptions,
@@ -53,6 +54,9 @@ class MessageHeaderConfiguration {
 
   ///[avatarStyle] set style for [CometChatAvatar]
   final AvatarStyle? avatarStyle;
+
+  ///[customAvatar] set custom avatar
+  final Widget Function(String? user, String? name)? customAvatar;
 
   ///[listItemStyle] set style for [CometChatListItem]
   final ListItemStyle? listItemStyle;

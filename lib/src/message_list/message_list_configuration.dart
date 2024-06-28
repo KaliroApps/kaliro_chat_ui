@@ -30,6 +30,7 @@ class MessageListConfiguration {
     this.errorStateView,
     this.hideError,
     this.avatarStyle,
+    this.customAvatar,
     this.disableSoundForMessages,
     this.customSoundForMessages,
     this.customSoundForMessagePackage,
@@ -95,6 +96,9 @@ class MessageListConfiguration {
 
   ///[avatarStyle] set style for avatar visible in leading view of message bubble
   final AvatarStyle? avatarStyle;
+
+  ///[customAvatar] custom avatar view
+  final Widget Function(String? user, String? name)? customAvatar;
 
   final bool? disableSoundForMessages;
 

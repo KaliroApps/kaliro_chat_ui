@@ -50,6 +50,7 @@ class CometChatConversations extends StatelessWidget {
     this.tailView,
     this.options,
     this.avatarStyle,
+    this.customAvatar,
     this.statusIndicatorStyle,
     this.badgeStyle,
     this.receiptStyle,
@@ -173,6 +174,9 @@ class CometChatConversations extends StatelessWidget {
 
   ///[avatarStyle] set style for avatar
   final AvatarStyle? avatarStyle;
+
+  ///[customAvatar] set custom avatar widget
+  final Widget Function(String? user, String? name)? customAvatar;
 
   ///[statusIndicatorStyle] set style for status indicator
   final StatusIndicatorStyle? statusIndicatorStyle;
@@ -345,6 +349,7 @@ class CometChatConversations extends StatelessWidget {
         subtitleView: subtitle,
         tailView: tail,
         avatarStyle: avatarStyle ?? const AvatarStyle(),
+        customAvatar: customAvatar,
         statusIndicatorColor: backgroundColor,
         statusIndicatorIcon: icon,
         statusIndicatorStyle:

@@ -39,6 +39,7 @@ class CometChatMessageHeader extends StatelessWidget
       this.subtitleView,
       this.theme,
       this.avatarStyle,
+      this.customAvatar,
       this.statusIndicatorStyle,
       this.listItemStyle,
       this.disableTyping = false,
@@ -104,6 +105,9 @@ class CometChatMessageHeader extends StatelessWidget
   ///[avatarStyle] set style for avatar
   final AvatarStyle? avatarStyle;
 
+  ///[customAvatar] set custom avatar
+  final Widget Function(String? user, String? name)? customAvatar;
+
   ///[listItemStyle] style for every list item
   final ListItemStyle? listItemStyle;
 
@@ -138,22 +142,29 @@ class CometChatMessageHeader extends StatelessWidget
 
   Widget getBackButton(BuildContext context, CometChatTheme theme) {
     if (hideBackButton != true) {
-      Widget backButton;
-      backButton = GestureDetector(
-        onTap: onBack ??
-            () {
-              Navigator.pop(context);
-            },
-        child: Image.asset(
-          AssetConstants.back,
-          package: UIConstants.packageName,
-          color: messageHeaderStyle.backButtonIconTint ??
-              theme.palette.getPrimary(),
-        ),
-      );
+      Widget theBackButton;
 
-      return Padding(
-          padding: const EdgeInsets.only(left: 20.0), child: backButton);
+      if(backButton != null) {
+        theBackButton = backButton!(context);
+      }
+      else {
+        theBackButton = Padding(
+          padding: const EdgeInsets.only(left: 20.0), 
+          child: GestureDetector(
+            onTap: onBack ??
+                () {
+                  Navigator.pop(context);
+                },
+            child: Image.asset(
+              AssetConstants.back,
+              package: UIConstants.packageName,
+              color: messageHeaderStyle.backButtonIconTint ??
+                  theme.palette.getPrimary(),
+            ),
+          )
+        );
+      }
+      return theBackButton;
     } else {
       return const SizedBox(
         height: 0,
@@ -293,6 +304,7 @@ class CometChatMessageHeader extends StatelessWidget
         title: title,
         subtitleView: subtitleView,
         avatarStyle: avatarStyle ?? const AvatarStyle(),
+        customAvatar: customAvatar,
         statusIndicatorColor: statusIndicatorColor,
         statusIndicatorIcon: icon,
         statusIndicatorStyle:
@@ -339,7 +351,7 @@ class CometChatMessageHeader extends StatelessWidget
           getBackButton(context, theme),
           Expanded(
               child: Padding(
-            padding: const EdgeInsets.only(left: 20.0, right: 16),
+            padding: const EdgeInsets.only(left: 0, right: 0),
             child: _getBody(controller, context, theme),
           ))
         ],

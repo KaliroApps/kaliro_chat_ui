@@ -467,6 +467,8 @@ class _CometChatMessagesState extends State<CometChatMessages> {
                                   _theme,
                               avatarStyle:
                                   widget.messageHeaderConfiguration.avatarStyle,
+                              customAvatar:
+                                  widget.messageHeaderConfiguration.customAvatar,
                               statusIndicatorStyle: widget
                                   .messageHeaderConfiguration
                                   .statusIndicatorStyle,
