@@ -25,7 +25,9 @@ class CometChatMessages extends StatefulWidget {
       this.hideMessageComposer = false,
       this.messageListConfiguration = const MessageListConfiguration(),
       this.messageHeaderConfiguration = const MessageHeaderConfiguration(),
-      this.messageComposerConfiguration = const MessageComposerConfiguration(),
+      this.messageComposerConfiguration = const MessageComposerConfiguration(
+
+      ),
       this.disableTyping = false,
       this.detailsConfiguration,
       this.messagesStyle,
@@ -308,6 +310,8 @@ class _CometChatMessagesState extends State<CometChatMessages> {
         : CometChatMessageComposer(
             user: controller.user,
             group: controller.group,
+            customMessageComposer: 
+                widget.messageComposerConfiguration.customMessageComposer,
             placeholderText:
                 widget.messageComposerConfiguration.placeholderText,
             hideLiveReaction:

@@ -25,6 +25,7 @@ class MessageComposerConfiguration {
       this.auxiliaryButtonsAlignment,
       this.placeholderText,
       this.messageComposerStyle,
+      this.customMessageComposer,
       this.hideLiveReaction,
       this.stateCallBack,
       this.onError,
@@ -58,6 +59,17 @@ class MessageComposerConfiguration {
 
   ///[messageComposerStyle] message composer style
   final MessageComposerStyle? messageComposerStyle;
+
+  ///[customMessageComposer] custom message composer
+  final Widget Function({
+    required bool hideVoiceRecording,
+    Future<dynamic> Function(String)? onChange,
+    Future<dynamic> Function(String)? setText,
+    Future<dynamic> Function()? onSendPressed,
+    Future<dynamic> Function()? onRecordPressed,
+    Future<dynamic> Function()? onAttachPressed,
+    String? text,
+  })? customMessageComposer;
 
   ///[auxiliaryButtonView] ui component to be forwarded to message input component
   final ComposerWidgetBuilder? auxiliaryButtonView;

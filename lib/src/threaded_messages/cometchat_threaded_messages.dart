@@ -115,6 +115,8 @@ class _CometChatThreadedMessagesState extends State<CometChatThreadedMessages> {
         : CometChatMessageComposer(
             user: controller.user,
             group: controller.group,
+            customMessageComposer: 
+                widget.messageComposerConfiguration?.customMessageComposer,
             placeholderText:
                 widget.messageComposerConfiguration?.placeholderText,
             parentMessageId: widget.parentMessage.id,
