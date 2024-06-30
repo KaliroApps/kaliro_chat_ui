@@ -322,7 +322,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "4.5.4"
+    version: "4.5.5"
   kaliro_cometchat_uikit_shared:
     dependency: transitive
     description:
