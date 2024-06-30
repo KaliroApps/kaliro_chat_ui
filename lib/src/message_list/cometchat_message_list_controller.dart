@@ -1059,7 +1059,7 @@ class CometChatMessageListController
       }
       //-----if message received in user conversation-----
       else if (user != null) {
-        thumbnail = false;
+        thumbnail = true;
         name = false;
         readReceipt = false;
         alignment0 = BubbleAlignment.left;

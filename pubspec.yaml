@@ -19,16 +19,15 @@ dependencies:
   webview_flutter: ^4.4.3
   get: ^4.6.5
   url_launcher: ^6.1.12
-  kaliro_cometchat_uikit_shared: ^4.4.2
-  # kaliro_cometchat_uikit_shared:
-  #   path: /Users/sop/dev/kaliro/kaliro_cometchat_uikit_shared
+  # kaliro_cometchat_uikit_shared: ^4.4.2
+  kaliro_cometchat_uikit_shared:
+    path: /Users/sop/dev/kaliro/kaliro_cometchat_uikit_shared
   cometchat_sdk: ^4.0.12
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

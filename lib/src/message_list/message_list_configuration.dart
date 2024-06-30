@@ -65,6 +65,17 @@ class MessageListConfiguration {
     this.textFormatters,
     this.disableMentions,
     this.reactionsConfiguration,
+    this.elevation,
+    this.bubbleSenderBackground,
+    this.bubbleRecipientBackground,
+    this.bubbleSenderColor,
+    this.bubbleRecipientColor,
+    this.bubbleSenderBorderRadius,
+    this.bubbleRecipientBorderRadius,
+    this.bubbleSenderBorder,
+    this.bubbleRecipientBorder,
+    this.bubbleBorder,
+    this.bubbleInteractiveBackground,
   });
 
   ///[messagesRequestBuilder] custom request builder for fetching messages
@@ -206,4 +217,37 @@ class MessageListConfiguration {
 
   ///[reactionsConfiguration] sets configuration properties for reactions
   final ReactionsConfiguration? reactionsConfiguration;
+
+  ///[bubbleInteractiveBackground] sets bubbleInteractiveBackground
+  final Color? bubbleInteractiveBackground;
+
+  ///[elevation] set bubble elevation
+  final double? elevation;
+
+  ///[bubbleSenderBackground] sets bubbleSenderBackground
+  final Color? bubbleSenderBackground;
+
+  ///[bubbleRecipientBackground] sets bubbleRecipientBackground
+  final Color? bubbleRecipientBackground;
+
+  ///[bubbleSenderColor] sets bubbleSenderColor
+  final Color? bubbleSenderColor;
+  
+  ///[bubbleRecipientColor] sets bubbleRecipientColor
+  final Color? bubbleRecipientColor;
+
+  ///[bubbleSenderBorderRadius] sets bubbleSenderBorderRadius
+  final BorderRadius? bubbleSenderBorderRadius;
+
+  ///[bubbleRecipientBorderRadius] sets bubbleRecipientBorderRadius
+  final BorderRadius? bubbleRecipientBorderRadius;
+
+  ///[bubbleSenderBorder] sets bubbleBorder
+  final Border? bubbleSenderBorder;
+
+  ///[bubbleRecipientBorder] sets bubbleBorder
+  final Border? bubbleRecipientBorder;
+
+  ///[bubbleBorder] sets bubbleBorder
+  final Border? bubbleBorder;
 }

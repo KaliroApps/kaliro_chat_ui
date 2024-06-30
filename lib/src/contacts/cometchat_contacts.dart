@@ -186,23 +186,14 @@ class _CometChatContactsState extends State<CometChatContacts>
             ],
             container: Column(
               children: [
-                Container(
+                SizedBox(
                   height: 36,
-                  decoration: BoxDecoration(
-                    color: theme.palette.getAccent100(),
-                    borderRadius: BorderRadius.circular(
-                      18.0,
-                    ),
-                  ),
+                  
                   child: TabBar(
+                    indicatorColor: theme.palette.getTertiary(),
+                    indicatorWeight: 2.0,
                     controller: value.tabController,
-                    indicator: BoxDecoration(
-                      borderRadius: BorderRadius.circular(
-                        18.0,
-                      ),
-                      color: widget.contactsStyle.selectedTabColor ??
-                          theme.palette.getPrimary(),
-                    ),
+           
                     labelColor:
                         widget.contactsStyle.selectedTabTextStyle?.color ??
                             theme.palette.getBackground(),

@@ -222,6 +222,7 @@ class _CometChatMessagesState extends State<CometChatMessages> {
             //stateCallBack: messageListStateCallBack,
             messagesRequestBuilder:
                 widget.messageListConfiguration.messagesRequestBuilder,
+            customAvatar: widget.messageListConfiguration.customAvatar,
             footerView: widget.messageListConfiguration.footerView,
             headerView: widget.messageListConfiguration.headerView,
             controller: widget.messageListConfiguration.controller,
@@ -288,6 +289,29 @@ class _CometChatMessagesState extends State<CometChatMessages> {
                 widget.messageListConfiguration.reactionsConfiguration,
             favoriteReactions:
                 widget.messageListConfiguration.favoriteReactions,
+
+            elevation: 
+                widget.messageListConfiguration.elevation,   
+            bubbleSenderBackground:
+                widget.messageListConfiguration.bubbleSenderBackground,
+            bubbleRecipientBackground:
+                widget.messageListConfiguration.bubbleRecipientBackground,
+            bubbleSenderColor:
+                widget.messageListConfiguration.bubbleSenderColor,
+            bubbleRecipientColor:
+                widget.messageListConfiguration.bubbleRecipientColor,
+            bubbleSenderBorderRadius:
+                widget.messageListConfiguration.bubbleSenderBorderRadius,
+            bubbleRecipientBorderRadius:
+                widget.messageListConfiguration.bubbleRecipientBorderRadius,
+            bubbleSenderBorder:
+                widget.messageListConfiguration.bubbleSenderBorder,
+            bubbleRecipientBorder:
+                widget.messageListConfiguration.bubbleRecipientBorder,
+            bubbleBorder:
+                widget.messageListConfiguration.bubbleBorder,
+            bubbleInteractiveBackground:
+                widget.messageListConfiguration.bubbleInteractiveBackground,
           );
   }
 

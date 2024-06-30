@@ -266,6 +266,7 @@ class _CometChatThreadedMessagesState extends State<CometChatThreadedMessages> {
             hideError: widget.messageListConfiguration?.hideError,
             hideTimestamp: widget.messageListConfiguration?.hideTimestamp,
             waitIcon: widget.messageListConfiguration?.waitIcon,
+            customAvatar: widget.messageListConfiguration?.customAvatar,
             showAvatar: widget.messageListConfiguration?.showAvatar,
             loadingStateView: widget.messageListConfiguration?.loadingStateView,
             disableSoundForMessages: true,
@@ -315,6 +316,29 @@ class _CometChatThreadedMessagesState extends State<CometChatThreadedMessages> {
             disableReactions: widget.messageListConfiguration?.disableReactions,
             favoriteReactions:
                 widget.messageListConfiguration?.favoriteReactions,
+
+            elevation: 
+                widget.messageListConfiguration?.elevation,
+            bubbleSenderBackground:
+                widget.messageListConfiguration?.bubbleSenderBackground,
+            bubbleRecipientBackground:
+                widget.messageListConfiguration?.bubbleRecipientBackground,
+            bubbleSenderColor:
+                widget.messageListConfiguration?.bubbleSenderColor,
+            bubbleRecipientColor:
+                widget.messageListConfiguration?.bubbleRecipientColor,
+            bubbleSenderBorderRadius:
+                widget.messageListConfiguration?.bubbleSenderBorderRadius,
+            bubbleRecipientBorderRadius:
+                widget.messageListConfiguration?.bubbleRecipientBorderRadius,
+            bubbleSenderBorder:
+                widget.messageListConfiguration?.bubbleSenderBorder,
+            bubbleRecipientBorder:
+                widget.messageListConfiguration?.bubbleRecipientBorder,
+            bubbleBorder:
+                widget.messageListConfiguration?.bubbleBorder,
+            bubbleInteractiveBackground:
+                widget.messageListConfiguration?.bubbleInteractiveBackground,
           );
   }
 
@@ -352,16 +376,20 @@ class _CometChatThreadedMessagesState extends State<CometChatThreadedMessages> {
 
   @override
   Widget build(BuildContext context) {
-    return CometChatListBase(
+    return Container(
+      decoration: BoxDecoration(
+        color: widget.threadedMessagesStyle?.gradient == null
+              ? widget.threadedMessagesStyle?.background
+              : null,
+        gradient: widget.threadedMessagesStyle?.gradient,
+      ),
+      child: CometChatListBase(
         title: widget.title ?? cc.Translations.of(context).thread,
         hideSearch: true,
         backIcon: widget.closeIcon,
         showBackButton: true,
         theme: _theme,
         style: ListBaseStyle(
-          background: widget.threadedMessagesStyle?.gradient == null
-              ? widget.threadedMessagesStyle?.background
-              : Colors.transparent,
           titleStyle: widget.threadedMessagesStyle?.titleStyle,
           gradient: widget.threadedMessagesStyle?.gradient,
           height: widget.threadedMessagesStyle?.height,
@@ -416,6 +444,6 @@ class _CometChatThreadedMessagesState extends State<CometChatThreadedMessages> {
                           ))),
                 ],
               );
-            }));
+            })));
   }
 }
